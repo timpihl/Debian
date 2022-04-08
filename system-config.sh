@@ -16,3 +16,5 @@ echo "PrintLastLog no" >> $ssh_conf
 echo "TCPKeepAlive yes" >> $ssh_conf
 echo "ClientAliveInterval 60" >> $ssh_conf
 echo "ClientAliveCountMax 100" >> $ssh_conf
+
+service ssh restart
