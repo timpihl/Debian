@@ -1,0 +1,29 @@
+deb https://d17k9fuiwb52nc.cloudfront.net/ buster main
+deb-src https://d17k9fuiwb52nc.cloudfront.net/ buster main
+
+deb https://d17k9fuiwb52nc.cloudfront.net/ buster nginx
+deb-src https://d17k9fuiwb52nc.cloudfront.net/ buster nginx
+
+deb https://d17k9fuiwb52nc.cloudfront.net/ buster php-7.1
+deb-src https://d17k9fuiwb52nc.cloudfront.net/ buster php-7.1
+
+deb https://d17k9fuiwb52nc.cloudfront.net/ buster php-7.2
+deb-src https://d17k9fuiwb52nc.cloudfront.net/ buster php-7.2
+
+deb https://d17k9fuiwb52nc.cloudfront.net/ buster php-7.3
+deb-src https://d17k9fuiwb52nc.cloudfront.net/ buster php-7.3
+
+deb https://d17k9fuiwb52nc.cloudfront.net/ buster php-7.4
+deb-src https://d17k9fuiwb52nc.cloudfront.net/ buster php-7.4
+
+deb https://d17k9fuiwb52nc.cloudfront.net/ buster php-8.0
+deb-src https://d17k9fuiwb52nc.cloudfront.net/ buster php-8.0
+
+deb https://d17k9fuiwb52nc.cloudfront.net/ buster php-8.1
+deb-src https://d17k9fuiwb52nc.cloudfront.net/ buster php-8.1
+
+deb https://d17k9fuiwb52nc.cloudfront.net/ buster percona-server-server-5.7
+deb-src https://d17k9fuiwb52nc.cloudfront.net/ buster percona-server-server-5.7
+
+deb https://d17k9fuiwb52nc.cloudfront.net/ buster proftpd
+deb-src https://d17k9fuiwb52nc.cloudfront.net/ buster proftpd
