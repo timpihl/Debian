@@ -18,4 +18,7 @@ echo "ClientAliveInterval 60" >> $ssh_conf
 echo "ClientAliveCountMax 100" >> $ssh_conf
 
 mkdir /toker
-mkdir /toker/share
+
+curl -sOL --output-dir /tmp https://github.com/timpihl/share/archive/refs/heads/master.zip
+unzip /tmp/master.zip -d /toker/
+mv /toker/share-master /toker/share
