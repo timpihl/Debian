@@ -25,8 +25,8 @@ preConfig()
 setupRequiredPackages()
 {
   apt update 
-  apt -y install curl sudo wget gnupg apt-transport-https
-  DEBIAN_FRONTEND=noninteractive apt-get install -y postfix
+  DEBIAN_FRONTEND=noninteractive apt -y install curl sudo wget gnupg apt-transport-https
+  DEBIAN_FRONTEND=noninteractive apt -y install postfix
 }
 
 addAptSourceList()
