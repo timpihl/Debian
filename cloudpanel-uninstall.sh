@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt purge -y php* mysql* nginx* percona-server-* postfix* redis* memcached* nodejs* clp*
+DEBIAN_FRONTEND=noninteractive apt purge -y php* mysql* nginx* percona-server-* postfix* redis* memcached* nodejs* clp*
 
 apt autopurge -y
 
