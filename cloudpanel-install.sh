@@ -25,7 +25,7 @@ preConfig()
 setupRequiredPackages()
 {
   apt update 
-  DEBIAN_FRONTEND=noninteractive apt -y install curl sudo wget gnupg apt-transport-https
+  DEBIAN_FRONTEND=noninteractive apt -y -o Dpkg::Options::="--force-confnew" install curl sudo wget gnupg apt-transport-https
   DEBIAN_FRONTEND=noninteractive apt -y install postfix
 }
 
