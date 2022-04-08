@@ -11,6 +11,8 @@ rm -rf /etc/nginx*
 rm -rf /etc/postfix*
 rm -rf /var/mail*
 rm -rf /var/www*
+rm -rf /var/lib/mysql*
+rm -rf /var/lib/clp*
 rm -rf /usr/bin/clpctl
 rm -rf /usr/local/bin/clp_reset_permissions
 rm -rf /home/mysql*
